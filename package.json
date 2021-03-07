@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "local-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "German Meza <iam@germanamz.com>",
+  "repository": "git@github.com:/germanamz/local-gateway.git",
+  "license": "MIT"
+}

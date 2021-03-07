@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  gateway:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - ./test/config:/.localg
+
+  lambda-a:
+    build: ./test/lambda-a
+
+  lambda-b:
+    build: ./test/lambda-b
